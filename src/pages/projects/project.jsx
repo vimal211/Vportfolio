@@ -20,8 +20,9 @@ import L_BOOTSTRAP4 from "../../assects/img/skills/bootstrap-4.svg";
 
 const Project = () => {
     return (
-        <div id="projects">
-            <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
+        <div id="projects" >
+
+            <h1 className="pt-3 text-center font-details pb-3">PROJECTS</h1>
             <Timeline>
                 <Events>
                 <ImageEvent
@@ -241,6 +242,7 @@ const Project = () => {
 
                 </Events>
             </Timeline>
+            
         </div>
     )
 }

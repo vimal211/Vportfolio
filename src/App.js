@@ -21,9 +21,7 @@ const App=()=> {
       <MyNavbar/>
       <MyCarousel/>
       <MyTitle/>
-      <Particles
-        className="particles particles-box"
-        params={particlesOptions}/>
+    
       <div>
         <Parallax
           blur={{ min: -30, max: 30 }}
@@ -48,14 +46,23 @@ const App=()=> {
             </Slide>
           </Container>
           </div>
-       <div>
-          <Container className="container-box rounded">
-          <Slide bottom duration={500}>
-            <hr />
-               <Project />
-            </Slide>
-          </Container>
-       </div>
+          <div>
+        <Parallax
+          blur={{ min: -30, max: 30 }}
+          bgImage={BgImage}
+          bgImageAlt=""
+          strength={-200}
+        >
+          <div>
+            <Container className="container-box rounded">
+              <Fade duration={500}>
+                <hr/>
+                <Project />
+              </Fade>
+            </Container>
+          </div>
+        </Parallax>
+      </div>
        <div>
             <Container className="container-box rounded">
               <Fade duration={500}>
@@ -64,7 +71,9 @@ const App=()=> {
               </Fade>
             </Container>
           </div>
-
+          <Particles
+        className="particles particles-box"
+        params={particlesOptions}/>
           <hr/>
           <Footer/>
       

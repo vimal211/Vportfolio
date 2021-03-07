@@ -13,7 +13,7 @@ const Contact = () => {
                     <Row>
                     <Col className="d-flex justify-content-center flex-wrap">
                         <div className="m-2">
-                        <a href="vimalnavee2110@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <a href="mailto:vimalnavee2110@gmail.com" target="_blank" rel="noopener noreferrer">
                             <Button variant="outline-danger" title="akjha96@gmail.com">
                             <i className="fas fa-envelope-square"></i> Email Me
                             </Button>

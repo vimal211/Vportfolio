@@ -10,15 +10,17 @@ import Button from "react-bootstrap/Button";
 const About = () => {
     return (
         <div id="about">
-            <div>
+            <div className="about" >
                 <h1 className="pt-3 text-center font-details pb-3">About Me</h1>
                 <Container>
-                    <Row className="pt-3 pb-5 align-items-center">
+                    <Row className="pt-3 pb-5 align-items-center ">
                         <Col xs={12} md={6}>
-                           <Image className="profile justify-content-end" alt="profile" src={Profile} thumbnail />
+                            <Row className="justify-content-center mb-2 mr-2 ">
+                            <Image className="profile justify-content-end" alt="profile" src={Profile} thumbnail />
+                            </Row>
                         </Col>
                         <Col xs={12} md={6}>
-                        <Row className=" align-items-start p-1 my-details rounded">
+                        <Row className=" align-items-start p-4 my-details rounded">
                             Hi there! I am <strong>&nbsp;Vimal M</strong>
                             <br />A passionate programmer , born and brought up in India. I am a Full Stack Web Developer with React.js, Redux, Node.js, and PostgreSQL as my tech stack.
                             <br />

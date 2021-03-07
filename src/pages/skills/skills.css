@@ -24,5 +24,9 @@
   .font-details-b {
     font-size: 3em;
     font-weight: 500;
-    color: #ffffff;
+    color: #FFFBEC;
+  }
+
+  .shadow{
+    text-shadow: 2px 2px 4px;
   }
