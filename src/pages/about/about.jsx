@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import "./about.css";
-import Profile from '../../assects/img/profile/Vimal.jpeg';
+import Profile from '../../assects/img/profile/Vimal.webp';
 import Button from "react-bootstrap/Button";
 
 const About = () => {
