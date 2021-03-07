@@ -3,12 +3,12 @@ import Carousel from 'react-bootstrap/Carousel';
 import "./mycarousel.css";
 import Slide1 from "../../assects/img/carousal/slide1.webp";
 import Slide2 from "../../assects/img/carousal/slide2.webp";
-import Slide3 from "../../assects/img/carousal/slide3.webp";
+import Slide3 from "../../assects/img/carousal/slide4.jpg";
 import Scroll from "../../components/myscroll/scroll";
 
 const MyCarousel = () => {
     return (
-        <div>
+        <div id="home">
             
             <Carousel controls={false} indicators interval={2500} pause={false}>
                 <Carousel.Item>
