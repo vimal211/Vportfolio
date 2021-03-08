@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from 'react-bootstrap/Nav';
 import Logo from "../../assects/img/Nav/vimal.png"
-import Link from "react-scroll";
+
 import "./mynavbar.css";
 
 
