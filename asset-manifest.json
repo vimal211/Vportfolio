@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/vport/static/css/main.4c7da160.chunk.css",
-    "main.js": "/vport/static/js/main.0e7cca2a.chunk.js",
-    "main.js.map": "/vport/static/js/main.0e7cca2a.chunk.js.map",
+    "main.js": "/vport/static/js/main.65e38381.chunk.js",
+    "main.js.map": "/vport/static/js/main.65e38381.chunk.js.map",
     "runtime-main.js": "/vport/static/js/runtime-main.b4c212cc.js",
     "runtime-main.js.map": "/vport/static/js/runtime-main.b4c212cc.js.map",
     "static/js/2.b74fa0fa.chunk.js": "/vport/static/js/2.b74fa0fa.chunk.js",
@@ -10,12 +10,12 @@
     "index.html": "/vport/index.html",
     "static/css/main.4c7da160.chunk.css.map": "/vport/static/css/main.4c7da160.chunk.css.map",
     "static/js/2.b74fa0fa.chunk.js.LICENSE.txt": "/vport/static/js/2.b74fa0fa.chunk.js.LICENSE.txt",
-    "static/media/Robofriends.1852c702.webp": "/vport/static/media/Robofriends.1852c702.webp",
-    "static/media/Vimal.e9c3c582.webp": "/vport/static/media/Vimal.e9c3c582.webp",
+    "static/media/Robofriends.2faf90b3.webp": "/vport/static/media/Robofriends.2faf90b3.webp",
+    "static/media/Vimal.f644a045.webp": "/vport/static/media/Vimal.f644a045.webp",
     "static/media/contact.css": "/vport/static/media/background.48c0b661.webp",
     "static/media/background.f6814621.webp": "/vport/static/media/background.f6814621.webp",
     "static/media/bootstrap-4.997c463d.svg": "/vport/static/media/bootstrap-4.997c463d.svg",
-    "static/media/brain.03eb81af.webp": "/vport/static/media/brain.03eb81af.webp",
+    "static/media/brain.c57beb0d.webp": "/vport/static/media/brain.c57beb0d.webp",
     "static/media/css3.8fba365c.svg": "/vport/static/media/css3.8fba365c.svg",
     "static/media/django.0779fca2.svg": "/vport/static/media/django.0779fca2.svg",
     "static/media/git-icon.c60b7e5a.svg": "/vport/static/media/git-icon.c60b7e5a.svg",
@@ -32,15 +32,15 @@
     "static/media/react.add74742.svg": "/vport/static/media/react.add74742.svg",
     "static/media/redux.0e4fb1c8.svg": "/vport/static/media/redux.0e4fb1c8.svg",
     "static/media/sass-1.8aa78a83.svg": "/vport/static/media/sass-1.8aa78a83.svg",
-    "static/media/slide1.14619b04.webp": "/vport/static/media/slide1.14619b04.webp",
-    "static/media/slide2.d58e7971.webp": "/vport/static/media/slide2.d58e7971.webp",
-    "static/media/slide3.fa67e40e.webp": "/vport/static/media/slide3.fa67e40e.webp",
+    "static/media/slide1.b93c7741.webp": "/vport/static/media/slide1.b93c7741.webp",
+    "static/media/slide2.4033e414.webp": "/vport/static/media/slide2.4033e414.webp",
+    "static/media/slide3.15a52301.webp": "/vport/static/media/slide3.15a52301.webp",
     "static/media/styled-components.2e00d138.svg": "/vport/static/media/styled-components.2e00d138.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b4c212cc.js",
     "static/js/2.b74fa0fa.chunk.js",
     "static/css/main.4c7da160.chunk.css",
-    "static/js/main.0e7cca2a.chunk.js"
+    "static/js/main.65e38381.chunk.js"
   ]
 }
