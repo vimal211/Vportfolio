@@ -15,13 +15,15 @@ import Footer from "./components/footer/footer";
 import Particles from 'react-particles-js';
 import { particlesOptions } from "./particleOptions";
 
-const App=()=> {
+
+const App = () => {
+
   return (
-    <div >
-      <MyNavbar/>
-      <MyCarousel/>
-      <MyTitle/>
-    
+      <div>
+      <MyNavbar />
+      <MyCarousel />
+      <MyTitle />
+
       <div>
         <Parallax
           blur={{ min: -30, max: 30 }}
@@ -39,14 +41,14 @@ const App=()=> {
         </Parallax>
       </div>
       <div>
-          <Container className="container-box rounded">
+        <Container className="container-box rounded">
           <Slide bottom duration={500}>
-            <hr/>
-               <Skills />
-            </Slide>
-          </Container>
-          </div>
-          <div>
+            <hr />
+            <Skills />
+          </Slide>
+        </Container>
+      </div>
+      <div>
         <Parallax
           blur={{ min: -30, max: 30 }}
           bgImage={BgImage}
@@ -56,28 +58,31 @@ const App=()=> {
           <div>
             <Container className="container-box rounded">
               <Fade duration={500}>
-                <hr/>
+                <hr />
                 <Project />
               </Fade>
             </Container>
           </div>
         </Parallax>
       </div>
-       <div>
-            <Container className="container-box rounded">
-              <Fade duration={500}>
-                <hr/>
-                <Contact />
-              </Fade>
-            </Container>
-          </div>
-          <Particles
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+            <Contact />
+          </Fade>
+        </Container>
+      </div>
+      <Particles
         className="particles particles-box"
-        params={particlesOptions}/>
-          <hr/>
-          <Footer/>
-      
-    </div>
+        params={particlesOptions} />
+      <hr />
+      <Footer />
+      </div>
+
+
+
+    
   );
 }
 
