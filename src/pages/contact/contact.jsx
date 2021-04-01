@@ -43,7 +43,7 @@ const Contact = () => {
                         </div>
                         <div className="m-2">
                         <a href="https://www.instagram.com/_vi.m.al_/" target="_blank" rel="noopener noreferrer">
-                            <Button variant="outline-primary" title="Say hello on FB">
+                            <Button variant="outline-primary" title="Say hello on Instagram">
                             <i className="fab fa-instagram"></i> Instagram
                             </Button>
                         </a>
