@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/vport/static/css/main.7159ed03.chunk.css",
-    "main.js": "/vport/static/js/main.65e38381.chunk.js",
-    "main.js.map": "/vport/static/js/main.65e38381.chunk.js.map",
+    "main.css": "/vport/static/css/main.f0f808df.chunk.css",
+    "main.js": "/vport/static/js/main.8cbc682e.chunk.js",
+    "main.js.map": "/vport/static/js/main.8cbc682e.chunk.js.map",
     "runtime-main.js": "/vport/static/js/runtime-main.b4c212cc.js",
     "runtime-main.js.map": "/vport/static/js/runtime-main.b4c212cc.js.map",
     "static/js/2.b74fa0fa.chunk.js": "/vport/static/js/2.b74fa0fa.chunk.js",
     "static/js/2.b74fa0fa.chunk.js.map": "/vport/static/js/2.b74fa0fa.chunk.js.map",
     "index.html": "/vport/index.html",
-    "static/css/main.7159ed03.chunk.css.map": "/vport/static/css/main.7159ed03.chunk.css.map",
+    "static/css/main.f0f808df.chunk.css.map": "/vport/static/css/main.f0f808df.chunk.css.map",
     "static/js/2.b74fa0fa.chunk.js.LICENSE.txt": "/vport/static/js/2.b74fa0fa.chunk.js.LICENSE.txt",
     "static/media/Robofriends.2faf90b3.webp": "/vport/static/media/Robofriends.2faf90b3.webp",
     "static/media/Vimal.f644a045.webp": "/vport/static/media/Vimal.f644a045.webp",
@@ -40,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.b4c212cc.js",
     "static/js/2.b74fa0fa.chunk.js",
-    "static/css/main.7159ed03.chunk.css",
-    "static/js/main.65e38381.chunk.js"
+    "static/css/main.f0f808df.chunk.css",
+    "static/js/main.8cbc682e.chunk.js"
   ]
 }
