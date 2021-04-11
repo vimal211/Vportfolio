@@ -16,6 +16,9 @@ import L_HEROKU from "../../assects/img/skills/heroku.svg";
 import L_GITHUB_PAGES from "../../assects/img/skills/github-api.svg";
 import L_JAVASCRIPT from "../../assects/img/skills/javascript.svg";
 import L_PYTHON from "../../assects/img/skills/python.svg";
+import L_JAVA from "../../assects/img/skills/java.svg";
+import L_FIREBASE from "../../assects/img/skills/firebase-icon.svg";
+import L__EXPRESS from "../../assects/img/skills/express.svg";
 
 export const skills = {
   frontend: [
@@ -90,10 +93,10 @@ export const skills = {
       skillName: "Node.js",
     },
     {
-      link: "https://www.djangoproject.com/",
-      imgAltText: "Django",
-      imgSrc: L_DJANGO,
-      skillName: "Django",
+      link: "https://expressjs.com/",
+      imgAltText: "Express",
+      imgSrc: L__EXPRESS,
+      skillName: "Express.js",
     },
   ],
   hostingPlatforms: [
@@ -109,8 +112,20 @@ export const skills = {
       imgSrc: L_GITHUB_PAGES,
       skillName: "GitHub Pages",
     },
+    {
+      link: "https://pages.github.com/",
+      imgAltText: "Firebase",
+      imgSrc: L_FIREBASE,
+      skillName: "Firebase",
+    },
   ],
   programmingLanguages: [
+    {
+      link: "https://go.java/?intcmp=gojava-banner-java-com",
+      imgAltText: "Java",
+      imgSrc: L_JAVA,
+      skillName: "Java",
+    },
     {
       link: "https://www.javascript.com/",
       imgAltText: "JavaScript",
@@ -123,6 +138,7 @@ export const skills = {
       imgSrc: L_PYTHON,
       skillName: "Python",
     },
+ 
   ],
   databases: [
     {

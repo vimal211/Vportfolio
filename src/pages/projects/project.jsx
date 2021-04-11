@@ -4,17 +4,18 @@ import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 import "./project.css"
 
 import L_RoboFriends from "../../assects/img/projects/Robofriends.webp";
-import L_SmartBrain from "../../assects/img/projects/brain.webp";
+import L_TINDER from "../../assects/img/projects/tinder.webp";
 import Card from "react-bootstrap/Card";
 
 import L_REACT from "../../assects/img/skills/react.svg";
 import L_NODE_JS from "../../assects/img/skills/nodejs.svg";
-import L_POSTGRESQL from "../../assects/img/skills/postgresql.svg";
+import L__MONGO from "../../assects/img/skills/mongodb.svg";
 import Image from "react-bootstrap/Image";
 import L_REDUX from "../../assects/img/skills/redux.svg";
 import L_HTML5 from "../../assects/img/skills/html-5.svg";
 import L_CSS3 from "../../assects/img/skills/css3.svg";
 import L_BOOTSTRAP4 from "../../assects/img/skills/bootstrap-4.svg";
+import L__EXPRESS from "../../assects/img/skills/express.svg";
 
 
 
@@ -136,11 +137,11 @@ const Project = () => {
                     </div>
                 </ImageEvent>
                 <ImageEvent
-                    date="21/05/2020"
+                    date="04/11/2021"
                     className="text-center"
-                    text="Smart Brain Face Detect app"
-                    src={L_SmartBrain}
-                    alt="Smart Brain Face Detect"
+                    text="MERN Tinder Clone"
+                    src={L_TINDER}
+                    alt="Tinder Clone"
                 >
                     <div className="d-flex justify-content-between flex-column mt-1">
                     <div>
@@ -156,14 +157,12 @@ const Project = () => {
 
                             <Accordion.Collapse eventKey="0" className="text-left">
                             <Card.Body>
-                                <strong>Description:</strong> An app that detects face
-                                in a picture.
+                                <strong>Description:</strong> A simple Tinder clone app which has swiping cards and chat options
                                 <hr />
                                 <strong>Features:</strong>
                                 <ul className="list-styles pt-1">
-                                <li>Register new user</li>
-                                <li>Signin exiting user</li>
-                                <li>Keep tracks of entries for each user</li>
+                                <li>Swipe Cards</li>
+                                <li>Send message</li>
                                 </ul>
                                 <hr />
                                 <strong>Tech used:</strong>
@@ -193,30 +192,27 @@ const Project = () => {
                                 <li>
                                     <span className="p-2">
                                     <Image
-                                        src={L_POSTGRESQL}
+                                        src={L__MONGO}
                                         alt="PostgreSQL"
                                         rounded
                                         className="image-style1 m-1"
                                     ></Image>{" "}
-                                    PostgreSQL
+                                    MongoDB
+                                    </span>
+                                </li>
+                                <li>
+                                    <span className="p-2">
+                                    <Image
+                                        src={L__EXPRESS}
+                                        alt="PostgreSQL"
+                                        rounded
+                                        className="image-style1 m-1"
+                                    ></Image>{" "}
+                                    Express.js
                                     </span>
                                 </li>
                                 </ul>
                                 <hr />
-                                <em>
-                                <strong>SignUp/ Signin:</strong>
-                                <br />
-                                <br />
-                                You can <strong>register</strong> as new user or{" "}
-                                <strong>log in</strong> using the demo account below.
-                                <br />
-                                <br />
-                                <strong>Demo Account Details:</strong>
-                                <br />
-                                email: demo@demo.com
-                                <br />
-                                password: demo
-                                </em>
                             </Card.Body>
                             </Accordion.Collapse>
                         </Card>
@@ -224,13 +220,13 @@ const Project = () => {
                     </div>
                     <div className="d-flex justify-content-between flex-nowrap text-center">
                         <UrlButton
-                        href="https://smart-face-detect-app.herokuapp.com/"
+                        href="https://tinder-clone-48b37.web.app/"
                         target="_blank"
                         >
                         SEE LIVE
                         </UrlButton>
                         <UrlButton
-                        href="https://github.com/akjha96/Smart_Brain"
+                        href="https://github.com/vimal211/mern-tinder-clone"
                         target="_blank"
                         >
                         SOURCE CODE
