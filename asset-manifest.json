@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/vport/static/css/main.f0f808df.chunk.css",
-    "main.js": "/vport/static/js/main.7d0cb975.chunk.js",
-    "main.js.map": "/vport/static/js/main.7d0cb975.chunk.js.map",
+    "main.js": "/vport/static/js/main.3a753fb9.chunk.js",
+    "main.js.map": "/vport/static/js/main.3a753fb9.chunk.js.map",
     "runtime-main.js": "/vport/static/js/runtime-main.b4c212cc.js",
     "runtime-main.js.map": "/vport/static/js/runtime-main.b4c212cc.js.map",
-    "static/js/2.b74fa0fa.chunk.js": "/vport/static/js/2.b74fa0fa.chunk.js",
-    "static/js/2.b74fa0fa.chunk.js.map": "/vport/static/js/2.b74fa0fa.chunk.js.map",
+    "static/js/2.1ed8cf66.chunk.js": "/vport/static/js/2.1ed8cf66.chunk.js",
+    "static/js/2.1ed8cf66.chunk.js.map": "/vport/static/js/2.1ed8cf66.chunk.js.map",
     "index.html": "/vport/index.html",
     "static/css/main.f0f808df.chunk.css.map": "/vport/static/css/main.f0f808df.chunk.css.map",
-    "static/js/2.b74fa0fa.chunk.js.LICENSE.txt": "/vport/static/js/2.b74fa0fa.chunk.js.LICENSE.txt",
-    "static/media/Robofriends.2faf90b3.webp": "/vport/static/media/Robofriends.2faf90b3.webp",
+    "static/js/2.1ed8cf66.chunk.js.LICENSE.txt": "/vport/static/js/2.1ed8cf66.chunk.js.LICENSE.txt",
+    "static/media/Todo.d8f4d372.webp": "/vport/static/media/Todo.d8f4d372.webp",
     "static/media/Vimal.f644a045.webp": "/vport/static/media/Vimal.f644a045.webp",
     "static/media/contact.css": "/vport/static/media/background.48c0b661.webp",
     "static/media/background.f6814621.webp": "/vport/static/media/background.f6814621.webp",
@@ -42,8 +42,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b4c212cc.js",
-    "static/js/2.b74fa0fa.chunk.js",
+    "static/js/2.1ed8cf66.chunk.js",
     "static/css/main.f0f808df.chunk.css",
-    "static/js/main.7d0cb975.chunk.js"
+    "static/js/main.3a753fb9.chunk.js"
   ]
 }
