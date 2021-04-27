@@ -3,7 +3,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 import "./project.css"
 
-import L_RoboFriends from "../../assects/img/projects/Robofriends.webp";
+import L_Todo from "../../assects/img/projects/Todo.webp";
 import L_TINDER from "../../assects/img/projects/tinder.webp";
 import Card from "react-bootstrap/Card";
 
@@ -11,10 +11,8 @@ import L_REACT from "../../assects/img/skills/react.svg";
 import L_NODE_JS from "../../assects/img/skills/nodejs.svg";
 import L__MONGO from "../../assects/img/skills/mongodb.svg";
 import Image from "react-bootstrap/Image";
-import L_REDUX from "../../assects/img/skills/redux.svg";
 import L_HTML5 from "../../assects/img/skills/html-5.svg";
 import L_CSS3 from "../../assects/img/skills/css3.svg";
-import L_BOOTSTRAP4 from "../../assects/img/skills/bootstrap-4.svg";
 import L__EXPRESS from "../../assects/img/skills/express.svg";
 
 
@@ -27,11 +25,11 @@ const Project = () => {
             <Timeline>
                 <Events>
                 <ImageEvent
-                    date="14/04/2020"
+                    date="11/03/2021"
                     className="text-center"
-                    text="RoboFriends"
-                    src={L_RoboFriends}
-                    alt="Robo Friends"
+                    text="ToDo App"
+                    src={L_Todo}
+                    alt="ToDo App"
                 >
                     <div className="d-flex justify-content-between flex-column mt-1">
                     <div>
@@ -47,14 +45,14 @@ const Project = () => {
 
                             <Accordion.Collapse eventKey="0" className="text-left">
                             <Card.Body>
-                                <strong>Description:</strong> An app that allows to
-                                search through robots fetched in real-time with users.
+                                <strong>Description:</strong> ToDo App is simple and awesome app to organize your tasks with very easy to use interface.
                                 <hr />
                                 <strong>Features:</strong>
                                 <ul className="list-styles pt-1">
-                                <li>Search through Robots</li>
-                                <li>Users and Robots being fetched via API call</li>
-                                <li>Usage of Redux store</li>
+                                <li>Add task</li>
+                                <li>Update status of task</li>
+                                <li>Edit task</li>
+                                <li>Delete task</li>
                                 </ul>
                                 <hr />
                                 <strong>Tech used:</strong>
@@ -84,34 +82,12 @@ const Project = () => {
                                 <li>
                                     <span className="p-2">
                                     <Image
-                                        src={L_BOOTSTRAP4}
-                                        alt="Bootstrap 4"
-                                        rounded
-                                        className="image-style m-1"
-                                    ></Image>{" "}
-                                    Bootstrap 4
-                                    </span>
-                                </li>
-                                <li>
-                                    <span className="p-2">
-                                    <Image
                                         src={L_REACT}
                                         alt="React"
                                         rounded
                                         className="image-style1 m-1"
                                     ></Image>{" "}
                                     React
-                                    </span>
-                                </li>
-                                <li>
-                                    <span className="p-2">
-                                    <Image
-                                        src={L_REDUX}
-                                        alt="Redux"
-                                        rounded
-                                        className="image-style m-1"
-                                    ></Image>{" "}
-                                    Redux
                                     </span>
                                 </li>
                                 </ul>
@@ -122,13 +98,13 @@ const Project = () => {
                     </div>
                     <div className="d-flex justify-content-between flex-nowrap text-center">
                         <UrlButton
-                        href="https://akjha96.github.io/RoboFriends/"
+                        href="https://vimal211.github.io/react-todo/"
                         target="_blank"
                         >
                         SEE LIVE
                         </UrlButton>
                         <UrlButton
-                        href="https://github.com/akjha96/RoboFriends"
+                        href="https://github.com/vimal211/react-todo"
                         target="_blank"
                         >
                         SOURCE CODE
@@ -137,7 +113,7 @@ const Project = () => {
                     </div>
                 </ImageEvent>
                 <ImageEvent
-                    date="04/11/2021"
+                    date="14/04/2021"
                     className="text-center"
                     text="MERN Tinder Clone"
                     src={L_TINDER}
