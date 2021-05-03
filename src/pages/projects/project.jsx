@@ -45,7 +45,7 @@ const Project = () => {
 
                             <Accordion.Collapse eventKey="0" className="text-left">
                             <Card.Body>
-                                <strong>Description:</strong> ToDo App is simple and awesome app to organize your tasks with very easy to use interface.
+                                <strong>Description:</strong> ToDo App is a simple and awesome app to organize your tasks with a very easy-to-use interface.
                                 <hr />
                                 <strong>Features:</strong>
                                 <ul className="list-styles pt-1">
@@ -133,7 +133,7 @@ const Project = () => {
 
                             <Accordion.Collapse eventKey="0" className="text-left">
                             <Card.Body>
-                                <strong>Description:</strong> A simple Tinder clone app which has swiping cards and chat options
+                                <strong>Description:</strong> A simple Tinder clone app that has swiping cards and chats options
                                 <hr />
                                 <strong>Features:</strong>
                                 <ul className="list-styles pt-1">
