@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import "./about.css";
-import Profile from '../../assects/img/profile/Vimal.webp';
+import Profile from '../../assects/img/profile/Vi.jpeg';
 import Button from "react-bootstrap/Button";
 
 const About = () => {
@@ -36,7 +36,7 @@ const About = () => {
                                 </a>
                             </div>
                             <div>
-                                <a href="https://drive.google.com/file/d/1pcNFF1eG2WYIWmCUcq9-6RHRHUmUAS2P/view?usp=sharinghttps://drive.google.com/file/d/1pcNFF1eG2WYIWmCUcq9-6RHRHUmUAS2P/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                <a href="https://drive.google.com/file/d/17skwHFkz-eNVb41jMdXgKSlc_L9NS12I/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                 <Button className="m-2" variant="outline-success">
                                     My Resume
                                 </Button>
