@@ -5,6 +5,8 @@
   
   .profile {
     max-width: 18em;
+    /* border-radius: 95px 0 95px 0px; */
+    border-color: 1px solid lightblue;
   }
   
   .my-details {

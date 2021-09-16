@@ -13,7 +13,7 @@ import L__MONGO from "../../assects/img/skills/mongodb.svg";
 import Image from "react-bootstrap/Image";
 import L_HTML5 from "../../assects/img/skills/html-5.svg";
 import L_CSS3 from "../../assects/img/skills/css3.svg";
-import L_COVID from "../../assects/img/projects/covid.webp"
+import L_QUIZ from "../../assects/img/projects/quiz.webp";
 import L_AMAZON from "../../assects/img/projects/Amazon.webp"
 import L__EXPRESS from "../../assects/img/skills/express.svg";
 import L_FIREBASE from "../../assects/img/skills/firebase-icon.svg";
@@ -217,9 +217,9 @@ const Project = () => {
                 <ImageEvent
                     date="25/04/2021"
                     className="text-center"
-                    text="Covid - 19 Website"
-                    src={L_COVID}
-                    alt="Covid Website"
+                    text="Quiz App"
+                    src={L_QUIZ}
+                    alt="Quiz App"
                 >
                     <div className="d-flex justify-content-between flex-column mt-1">
                     <div>
@@ -235,26 +235,26 @@ const Project = () => {
 
                             <Accordion.Collapse eventKey="0" className="text-left">
                             <Card.Body>
-                                <strong>Description:</strong> This website will help and guide users to understand about the covid-19 better. Its precations, symptoms, treatment. Due to its alluring designs it will attract the users to use the website and get benefited with the information provided in the website
+                                <strong>Description:</strong> A simple quiz app is developed using react.js has a set of 15 quizzes 
                                 <hr />
-                                <strong>Features:</strong>
+                                {/* <strong>Features:</strong>
                                 <ul className="list-styles pt-1">
                                 <li>Covid - 19 Precautions</li>
                                 <li>Covid - 19 Symptoms</li>
                                 <li>Hand Wash Steps</li>
-                                </ul>
+                                </ul> */}
                                 <hr />
                                 <strong>Tech used:</strong>
                                 <ul>
                                 <li>
                                     <span className="p-2">
                                     <Image
-                                        src={L_HTML5}
+                                        src={L_REACT}
                                         alt="React"
                                         rounded
                                         className="image-style1 m-1"
                                     ></Image>{" "}
-                                    HTML5
+                                    React
                                     </span>
                                 </li>
                                 <li>
@@ -268,17 +268,6 @@ const Project = () => {
                                     CSS3
                                     </span>
                                 </li>
-                                <li>
-                                    <span className="p-2">
-                                    <Image
-                                        src={L_JAVASCRIPT}
-                                        alt="JavaScript"
-                                        rounded
-                                        className="image-style1 m-1"
-                                    ></Image>{" "}
-                                    JavaScript
-                                    </span>
-                                </li>
                                 </ul>
                                 <hr />
                             </Card.Body>
@@ -288,13 +277,13 @@ const Project = () => {
                     </div>
                     <div className="d-flex justify-content-between flex-nowrap text-center">
                         <UrlButton
-                        href="https://priceless-swirles-291db9.netlify.app/"
+                        href="https://epic-lovelace-1ff9cf.netlify.app/"
                         target="_blank"
                         >
                         SEE LIVE
                         </UrlButton>
                         <UrlButton
-                        href="https://github.com/vimal211/covid-website"
+                        href="https://github.com/vimal211/react-quiz-app"
                         target="_blank"
                         >
                         SOURCE CODE
@@ -324,7 +313,7 @@ const Project = () => {
 
                             <Accordion.Collapse eventKey="0" className="text-left">
                             <Card.Body>
-                                <strong>Description:</strong> A E-commerce web application which has the funcationalites such as login user, payment methods, add items to cart,and some more.
+                                <strong>Description:</strong>An E-commerce web application that has the functionalities such as login user, payment methods, add items to cart, and some more.
 
                                 <hr />
                                 <strong>Features:</strong>

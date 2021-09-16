@@ -24,7 +24,7 @@ const About = () => {
                             Hi there! I am <strong>&nbsp;Vimal M</strong>
                             <br />A passionate programmer , born and brought up in India. I am a Full Stack Web Developer with React.js, Redux, Node.js, and PostgreSQL as my tech stack.
                             <br />
-                            In 2022, I successfully completed my Engineering with specialization in 'Comupter Science'.
+                            In 2022, I'm successfully completing my Engineering with specialization in 'Comupter Science'.
                             <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
                             <br /> <br />
                             <Col className="d-flex justify-content-center flex-wrap">
@@ -36,7 +36,7 @@ const About = () => {
                                 </a>
                             </div>
                             <div>
-                                <a href="https://drive.google.com/file/d/17skwHFkz-eNVb41jMdXgKSlc_L9NS12I/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                <a href="https://drive.google.com/file/d/1487TSdY0M2kMcDAIunHaWngoYw-g39Zo/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                 <Button className="m-2" variant="outline-success">
                                     My Resume
                                 </Button>
